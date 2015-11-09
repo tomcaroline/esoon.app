@@ -1,0 +1,25 @@
+<ion-view view-title="登陆">
+    <ion-nav-bar class="bar-calm" align-title="center">
+        <ion-nav-back-button class="button-clear">
+            <i class="icon ion-ios-arrow-left"></i>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-nav-buttons side="right">
+        <a class="button button-clear" href="#/index/register">注册</a>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+        <form name="login" ng-submit="submit();">
+            <div class="list">
+                <label class="item item-input item-icon-right">
+                    <span class="input-label">手机号</span>
+                    <input type="text" name="phone" ng-model="user.phone" placeholder="手机号" ng-required="true">
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">密码</span>
+                    <input type="password" name="password" ng-model="user.pwd" placeholder="密码" ng-required="true">
+                </label>
+            </div>
+            <button type="submit" class="button button-calm button-block" ng-disabled="login.$invalid">登陆</button>
+        </form>
+    </ion-content>
+</ion-view>

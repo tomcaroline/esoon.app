@@ -1,0 +1,23 @@
+.getCode{position:absolute;right:10px;z-index:9;top:56px;background: #f8f8f8 !important;}
+.reset{position:absolute;right:5px;z-index:1;top:8px;}
+.yzmok{color: #4cd964;}
+.yzmfalse{color: #e42012;}
+input[readonly]{background-color: #fff !important;color: #9e9e9e;}
+.input-file{position: absolute;top: 0;left: 0;width: 100% !important;height: 100%;opacity: 0;z-index: 10;}
+.fileList .item-content{padding-bottom: 5px;}
+.fileList input[type=number]{display: inline-block; width: 26px;height: 26px; font-size: 12px;border: 1px solid #eee; line-height: 26px;position: relative; padding: 0 0;text-align: center;}
+.fileList .button-clear{padding-left: 0px;}
+.eslabel{height: 26px !important;line-height: 26px !important;font-size: 12.5px !important;}
+@-webkit-keyframes twinkling{    /*透明度由0到1*/
+    0%{
+        opacity:0; /*透明度为0*/
+    }
+    100%{
+        opacity:1; /*透明度为1*/
+    }
+}
+.es-element{
+    -webkit-animation: twinkling 1s infinite ease-in-out;
+    color: #e42012;
+}
+.es-badge{font-size: 20px;}

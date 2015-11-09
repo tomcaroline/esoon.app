@@ -1,0 +1,39 @@
+<ion-view view-title="个人中心">
+  <ion-nav-bar class="bar-calm" align-title="center">
+    <ion-nav-buttons side="right">
+      <span class="button button-clear" ng-click="showmsg()"><i class="icon ion-chatbubble-working es-badge" ng-class="{'es-element':hasMsg}"></i></span>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+  <ion-content>
+    <ion-item class="item-avatar item-icon-right">
+      <img ng-src="/images/head.jpg" />
+      <h2>{{userinfo.username}}</h2>
+      <P>{{userinfo.useraddr}}</P>
+    </ion-item>
+    <ion-item class="item-icon-right item-">
+      <!--<h2>电话：</h2>-->
+      <h2>电话</h2>
+      <i class="icon ion-ios-arrow-right"></i>
+    </ion-item>
+    <ion-item class="item-avatar-left item-icon-right">
+      <img ng-src="/images/head.jpg" />
+      <h2>tomcaroline</h2>
+      <P>四川，乐山</P>
+      <i class="icon ion-ios-arrow-right"></i>
+    </ion-item>
+    <ion-item class="item-avatar-left item-icon-right">
+      <img ng-src="/images/head.jpg" />
+      <h2>tomcaroline</h2>
+      <P>四川，乐山</P>
+      <i class="icon ion-ios-arrow-right"></i>
+    </ion-item>
+    <ion-item class="item-avatar-left item-icon-right">
+    <img ng-src="/images/head.jpg" />
+    <h2>tomcaroline</h2>
+    <P>四川，乐山</P>
+    <i class="icon ion-ios-arrow-right"></i>
+  </ion-item>
+
+  </ion-content>
+
+</ion-view>

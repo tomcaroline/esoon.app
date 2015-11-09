@@ -1,0 +1,62 @@
+
+<ion-view view-title="主页">
+  <ion-nav-bar class="bar-calm" align-title="center">
+    <ion-nav-buttons side="right">
+      <a class="button button-clear" href="#/index/login">登陆</a>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+<ion-content class="padding">
+  <ion-slide-box does-continue="true" auto-play=true slide-interval="10000">
+    <ion-slide>
+      <img src="images/slider.jpg"/>
+    </ion-slide>
+    <ion-slide>
+      <img src="images/slider.jpg"/>
+    </ion-slide>
+    <ion-slide>
+      <img src="images/slider.jpg"/>
+    </ion-slide>
+  </ion-slide-box>
+  <ion-list>
+    <ion-item class="item-avatar-left">
+      <!--<img ng-src="img/slider.jpg">-->
+      <img src="{{item.img}}">
+      <h2>数学理论.jpeg</h2>
+      <p>黑色,一份，双面</p>
+      <ion-option-button class="button-assertive icon ion-android-delete" ng-click="delete_item()"></ion-option-button>
+      <ion-option-button class="button-dark icon ion-settings"></ion-option-button>
+    </ion-item>
+    <ion-item class="item-avatar-left">
+      <img src="{{item.word}}">
+      <h2>数学理论.doc</h2>
+      <p>黑色,一份，双面</p>
+      <ion-option-button class="button-assertive icon ion-android-delete"></ion-option-button>
+      <ion-option-button class="button-calm icon ion-settings"></ion-option-button>
+    </ion-item>
+    <ion-item class="item-avatar-left">
+      <img src="{{item.ppt}}">
+      <h2>数学理论.ppt</h2>
+      <p>黑色,一份，双面</p>
+      <ion-option-button class="button-assertive icon ion-android-delete"></ion-option-button>
+      <ion-option-button class="button-calm icon ion-settings"></ion-option-button></ion-item>
+    <ion-item class="item-avatar-left">
+      <img src="{{item.excel}}">
+      <h2>数学理论.xls</h2>
+      <p>黑色,一份，双面</p>
+      <ion-option-button class="button-assertive icon ion-android-delete"></ion-option-button>
+      <ion-option-button class="button-calm icon ion-settings"></ion-option-button></ion-item>
+    <ion-item class="item-avatar-left">
+      <img src="{{item.excel}}">
+      <h2>数学理论.xls</h2>
+      <p>黑色,一份，双面</p>
+      <ion-option-button class="button-assertive icon ion-android-delete"></ion-option-button>
+      <ion-option-button class="button-calm icon ion-settings"></ion-option-button></ion-item>
+    <ion-item class="item-avatar-left">
+      <img src="{{item.excel}}">
+      <h2>数学理论.xls</h2>
+      <p>黑色,一份，双面</p>
+      <ion-option-button class="button-assertive icon ion-android-delete"></ion-option-button>
+      <ion-option-button class="button-calm icon ion-settings"></ion-option-button></ion-item>
+  </ion-list>
+</ion-content>
+</ion-view>
